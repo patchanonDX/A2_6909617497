@@ -4,29 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Learning Portfolio</title>
 </head>
 
 <body>
     <header>
-        <div class = "border border-primary">
-
         <section id="intro">
-            <h1>Welcome!</h1>
-            <nav>
-                <a href="#about me">About Me</a>
-                <a href="#What I Built">What I Built</a>
-                <a href="#How I Built It">How I Built</a>
-                <a href="#reflection">Reflection</a>
+            <!-- navigation menu -->
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <h1 class="fw-bold">My Portfolio</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#NavMenu"><span class="navbar-toggler-icon"></span></button>
+                    <!-- navigation links -->
+                    <div class="collapse navbar-collapse" id="NavMenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Portfolio">What I Built</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#How">How I Built</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reflection">Reflection</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </section>
-        </div>
     </header>
 
     <main>
-        <section>
+        <section id="Home">
             <div id="first">
                 <p> Hello, I'm </p>
                 <h2 id="Name">Patchanon Suwanlertcharoen</h2>
@@ -36,7 +55,7 @@
             </div>
         </section>
 
-        <section id="about me">
+        <section id="About">
             <div id="second">
                 <h2>About Me</h2>
                 <p>Name: Patchanon Suwanlertcharoen</p>
@@ -47,7 +66,7 @@
             </div>
         </section>
 
-        <section id="What I Built">
+        <section id="Portfolio">
             <div id="third">
                 <h2>What I Built</h2>
                 <p>I built my first Learning Portfolio using HTML and CSS. The purpose is to introduce myself and
@@ -67,7 +86,7 @@
             </div>
         </section>
 
-        <section id="How I Built It">
+        <section id="How">
             <div id="fourth">
                 <h2>How I Built It</h2>
                 <p>First, I reviewed the HTML structures and CSS elements from the class modules. Then, I developed the
@@ -119,7 +138,9 @@
             </a>
         </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
