@@ -34,22 +34,23 @@ nav .nav-link {
 #first {
     text-align: center;
     padding: 100px;
-    line-height: 1.8;
+    line-height: 3;
 }
 
 #Name {
     font-size: 35px;
+    font-weight: bold;
 }
 
 #major {
     font-size: 20px;
+    font-weight: bold;
 }
 
 #me {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    margin-top: 50px;
 }
 
 #second {
@@ -96,7 +97,7 @@ section {
     scroll-margin-top: 200px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
     section {
         scroll-margin-top: 350px;
     }
