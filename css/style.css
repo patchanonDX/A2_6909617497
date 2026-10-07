@@ -46,15 +46,31 @@ nav a {
 #first {
     text-align: center;
     padding: 100px;
-    line-height: 1.8;
+    line-height: 3;
+}
+
+@media (max-width: 767px) {
+    #first {
+        padding: 50px 40px;
+    }
 }
 
 #Name {
     font-size: 35px;
+    font-weight: bold;
+}
+
+.home-text {
+    max-width: 600px;
+}
+
+#first .row {
+    justify-content: center;
 }
 
 #major {
     font-size: 20px;
+    font-weight: bold;
 }
 
 #me {
