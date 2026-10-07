@@ -121,6 +121,21 @@ h3 {
     color: #355c7d;
 }
 
+h4 {
+    color: #3379b6
+}
+
+#Userlist {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    #Userlist {
+        width: 50%;
+    }
+}
+
 section {
     scroll-margin-top: 150px;
 }
