@@ -28,20 +28,8 @@ header {
     font-size: 20px;
 }
 
-nav {
-    font-weight: bold;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
 nav .nav-link {
     color: white;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
 }
 
 #first {
@@ -90,22 +78,6 @@ nav a {
 }
 
 #third {
-    background-color: #e8f1f8;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 30px;
-    line-height: 1.8;
-}
-
-#fourth {
-    background-color: white;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 30px;
-    line-height: 1.8;
-}
-
-#fifth {
     background-color: #e8f1f8;
     border-radius: 15px;
     padding: 30px;
